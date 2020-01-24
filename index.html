@@ -1,20 +1,15 @@
 <html>
   <style>
-    h1 {
-      opacity 100;
-    }
-    h2 {
-      opacity 0;
-    }
-    h1:hover {
-      opacity 0;
-      
-    }
-    h1:hover ~ h2{
-      opacity 100;
-    }
+.hello, .world { color: black; }
+
+.hello:hover ~ .world {
+    color: red;
+}
     
   </style>
-<h1>Hello World</h1>
-  <h2>Hello Scott</h2>
+<a class="hello">Hello World</a>
+
+<br /><br >
+
+<a class="Scott">Scott</a>
 </html>
