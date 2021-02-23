@@ -1,7 +1,8 @@
 body {
     background-color: #43a842;
-    font-family: "Neue Hans Kendrick",sans-serif;
+    font-family: "NeueHansKendrick-Regular",sans-serif;
     margin: 0;
+    
 }
 .heading {
     position: absolute;
@@ -11,7 +12,7 @@ body {
 }
 h1 {
     background-color: #43a842;
-    font-family: "Neue Hans Kendrick",sans-serif;
+    font-family: "NeueHansKendrick-Regular",sans-serif;
     font-size: 40px;
     font-weight: 200;
     color: white;
@@ -19,14 +20,14 @@ h1 {
 
 h3 {
     background-color: #43a842;
-    font-family: "Neue Hans Kendrick",sans-serif;
+    font-family: "NeueHansKendrick-Regular",sans-serif;
     font-size: 40px;
     font-weight: 200;
     color: white;
 }
 
 p {
-  font-family: "Neue Hans Kendrick",sans-serif;
+  font-family: "NeueHansKendrick-Regular",sans-serif;
   font-size: 20px;
 }
 
@@ -54,4 +55,8 @@ p {
 .myButton:active {
 	position:relative;
 	top:1px;
+}
+
+.ticker {
+    display:inline-block
 }
